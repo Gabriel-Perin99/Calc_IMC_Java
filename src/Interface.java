@@ -106,15 +106,15 @@ public class Interface extends Application {
     private String Classification(double imc){
         if (imc < 17) {
             return "Muito abaixo do peso";
-        } else if (imc < 18.5) {
+        } else if (imc <= 18.49) {
             return "Abaixo do peso";
-        } else if (imc < 25) {
+        } else if (imc <= 24.99) {
             return "Peso normal";
-        } else if (imc < 30) {
+        } else if (imc <= 29.99) {
             return "Sobrepeso";
-        } else if (imc < 35) {
+        } else if (imc <= 34.99) {
             return "Obesidade Grau I";
-        } else if (imc < 40) {
+        } else if (imc <= 39.99 ) {
             return "Obesidade Grau II";
         } else {
             return "Obesidade Grau III (mórbida)";
