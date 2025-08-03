@@ -1,0 +1,30 @@
+.bkg{
+    -fx-background-color: radial-gradient(radius 100%, skyblue, #15ebff);
+}
+
+.title{
+    -fx-font-weight: bolder;
+    -fx-font-size: 20px;
+    -fx-text-fill: black;
+}
+
+.parameter{
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+.txField{
+    -fx-font-size: 15px;
+}
+.btn{
+    -fx-max-width: 300px;
+    -fx-font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.result{
+    -fx-background-color: white;
+    -fx-font-size: 12px;
+    -fx-padding: 5px;
+    -fx-border-radius: 5px;
+    -fx-max-width: 300px;
+}
