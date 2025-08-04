@@ -50,9 +50,11 @@ public class Interface extends Application {
         hValue.getStyleClass().add("parameter");
 
         TextField insertW = new TextField();
+        insertW.setPromptText("Exemplo: 60");
         insertW.getStyleClass().add("txField");
 
         TextField insertH = new TextField();
+        insertH.setPromptText("Exemplo: 1.79");
         insertH.getStyleClass().add("txField");
 
         Button button = new Button("Calcular IMC");
