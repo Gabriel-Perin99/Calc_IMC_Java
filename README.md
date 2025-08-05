@@ -17,6 +17,8 @@
   Para rodar este programa diretamente no Intellij, é necessário introduzir uma linha de código que reconheça o uso da biblioteca do JAVAFX.
 </p>
 <p align="center">
-  RUN -> Edit Configurations -> habilitar a opção: add VM Option e colar o seguinte código:
+  RUN -> Edit Configurations -> habilitar a opção: add VM Option e cole o seguinte código:
 </p>
 <p align="center">--module-path src/resources/javafx-sdk-24.0.2/lib --add-modules javafx.controls,javafx.fxml</p>
+
+<h3>Terminal:</h3>
