@@ -1,6 +1,5 @@
 # Projeto Calculadora IMC JAVA
 
-Este projeto tem como objetivo a criação de uma calculadora de Índice de Massa Corporal
 <p>
   <img alt="project image" src="/src/resources/sample.png">
 </p>
