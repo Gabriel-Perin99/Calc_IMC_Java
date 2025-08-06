@@ -1,8 +1,7 @@
-<h1 align="center">Projeto Calculadora IMC JAVA</h1>
+# Projeto Calculadora IMC JAVA
 
-<p align="center">Este projeto tem como objetivo a criação de uma calculadora de Índice de Massa Corporal</p>
-
-<p align = "center">
+Este projeto tem como objetivo a criação de uma calculadora de Índice de Massa Corporal
+<p>
   <img alt="project image" src="/src/resources/sample.png">
 </p>
 
@@ -10,30 +9,32 @@
 
 - Java
 - CSS
+- Intellij IDE
 
 ## Como Utilizar:
-<h3 align="center">Intellij IDE:</h3>
 
-<p align="center">
-  Para rodar este programa diretamente no Intellij, é necessário introduzir uma linha de código que reconheça o uso da biblioteca do JAVAFX.
-</p>
+### Intellij IDE:
 
-<p align="center">
-  RUN -> Edit Configurations -> habilitar a opção: add VM Option e cole o seguinte código:
-</p>
 
-<p align="center">
+Para rodar este programa diretamente no Intellij, é necessário introduzir uma linha de código que faça com que a IDE reconheça o uso da biblioteca do JAVAFX dentro dos modulos/libs. 
 
+  Para isso ocorrer é necessário fazer a seguinte configuração:
+
+1.  ` RUN -> Edit Configurations `
+2. Clicar na opção `Modify Options` e selecionar **add VM Option**
+3. No campo que irá surgir, cole o seguinte código:
+ 
 ```bash
 --module-path src/resources/javafx-sdk-24.0.2/lib --add-modules javafx.controls,javafx.fxml
 ```
-<p/>
+4. Rebuild
+5. Pronto!
 
  
 
-<h3 align="center">Terminal:</h3>
+### Terminal:
 
-<p align="center"> Caso executado pelo SDK, pode-se usar os seguintes comandos:</p>
+Executando pelo SDK, pode-se usar os seguintes comandos:
 
 1. **Compilação:**
 
