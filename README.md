@@ -33,7 +33,7 @@ Para rodar este programa diretamente no Intellij, é necessário introduzir uma 
 
 ### Terminal:
 
-Executando pelo SDK, pode-se usar os seguintes comandos:
+Executando pelo JDK, pode-se usar os seguintes comandos:
 
 1. **Compilação:**
 
